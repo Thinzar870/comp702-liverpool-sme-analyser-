@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── COMP702 project-specific: exclude generated data, not code ──
+output/
+*.db
+*.sqlite
+*.sqlite3
+BasicCompanyDataAsOneFile*.csv
+BasicCompanyDataAsOneFile*.zip
